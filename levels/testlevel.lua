@@ -1722,28 +1722,28 @@ tm = {
 { 197, 47, 4, 1},
 { 197, 46, 4, 1},
 { 197, 46, 3, 2}
-}
 city.mapS = tm
 
-table.insert(cTable,Character({3140.17844,160,3},{44,6,3},"William"))
-table.insert(cTable,Character({885.59933593604,800,3},{14,28,3},"Balthazar"))
-table.insert(cTable,Character({2704,871.30168848005,4},{74,28,3},"Cho"))
-table.insert(cTable,Character({1040,993.44058620793,3},{44,44,3},"Nestle"))
-table.insert(cTable,Character({2886.5986138881,1056,3},{14,44,3},"Opera"))
-table.insert(cTable,Character({2000,1082.400664064,3},{44,28,3},"Christoph"))
-table.insert(cTable,Character({2681.836951424,1568,3},{74,44,3},"Grampa"))
-table.insert(cTable,Character({3314.5051996999,1757.4948003001,3},{14,66,3},"Montego"))
-table.insert(cTable,Character({5200,1876.7430363201,3},{74,82,3},"Janet"))
-table.insert(cTable,Character({4624,1910.5986138881,4},{74,6,3},"Mary"))
-table.insert(cTable,Character({1694.6793045439,1920,3},{44,66,3},"Moo"))
-table.insert(cTable,Character({3568,2051.229920384,3},{14,6,3},"Roger"))
-table.insert(cTable,Character({2473.8536493728,2073.8536493728,3},{74,66,3},"Pajama"))
-table.insert(cTable,Character({1584,2688.918441824,2},{44,82,3},"Willy"))
-table.insert(cTable,Character({3440,2816,3},{14,82,3},"Sue"))
-cam.x = 2180.17844
-cam.y = 32
+table.insert(cTable,Character({2384,224,3},{74,6,3},"Mary"))
+table.insert(cTable,Character({464,224,3},{14,6,3},"Roger"))
+table.insert(cTable,Character({1424,224,3},{44,6,3},"William"))
+table.insert(cTable,Character({1424,928,3},{44,28,3},"Christoph"))
+table.insert(cTable,Character({464,928,3},{14,28,3},"Balthazar"))
+table.insert(cTable,Character({2384,928,3},{74,28,3},"Cho"))
+table.insert(cTable,Character({464,1440,3},{14,44,3},"Opera"))
+table.insert(cTable,Character({2384,1440,3},{74,44,3},"Grampa"))
+table.insert(cTable,Character({1424,1440,3},{44,44,3},"Nestle"))
+table.insert(cTable,Character({1424,2144,3},{44,66,3},"Moo"))
+table.insert(cTable,Character({2384,2144,3},{74,66,3},"Pajama"))
+table.insert(cTable,Character({464,2144,3},{14,66,3},"Montego"))
+table.insert(cTable,Character({464,2656,3},{14,82,3},"Sue"))
+table.insert(cTable,Character({2384,2656,3},{74,82,3},"Janet"))
+table.insert(cTable,Character({1424,2656,3},{44,82,3},"Willy"))
+cam.x = 1
+cam.y = 1
 cam.z = 3
-clockTime = {8,8.6525994200001}
-sunColor = {1,1,1} initializeColors()
+clockTime = {6,55}
+sunColor = {1,1,1}
+initializeColors()
 
 groundLevel = 3
