@@ -13,6 +13,7 @@ path = love.filesystem.getSaveDirectory()"
 end
 
 -- initialize variables
+love.filesystem.createDirectory("/levels/")
 font = {
 	love.graphics.newFont("/gfx/font/cour.ttf",14,"normal"),
 	love.graphics.newFont("/gfx/font/cour.ttf",20,"normal"),

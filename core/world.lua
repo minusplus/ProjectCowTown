@@ -331,11 +331,12 @@ function City:save(lname)
 	local ypairs = table.maxn(self.mapW[1])
 	local zpairs = table.maxn(self.mapW)
 	local filestring = "local city = ... \nlocal tm = {"
-	file, err = io.open(path .. "/levels/" .. lname .. ".lua","w")
-	if file ~= nil then
-		file:write(filestring)
-		file:close()
-	end
+	love.filesystem.write("/levels/" .. lname .. ".lua",filestring)
+	--file, err = io.open(path .. "/levels/" .. lname .. ".lua","w")
+	--if file ~= nil then
+	--	file:write(filestring)
+	--	file:close()
+	--end
 	
 	--save floors
 	for k=1,zpairs do
