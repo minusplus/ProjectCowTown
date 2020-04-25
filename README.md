@@ -9,7 +9,7 @@ Play Mode: V
 
 Build Mode: B
 
-Pan Camera: Arrow Keys
+Pan Camera: arrow keys, middle mouse click
 
 Camera Floor Up: [, ctrl+mouse wheel up
 
