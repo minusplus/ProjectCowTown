@@ -1722,6 +1722,7 @@ tm = {
 { 197, 47, 4, 1},
 { 197, 46, 4, 1},
 { 197, 46, 3, 2}
+}
 city.mapS = tm
 
 table.insert(cTable,Character({2384,224,3},{74,6,3},"Mary"))
